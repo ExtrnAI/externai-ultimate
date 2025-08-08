@@ -487,21 +487,18 @@
   z-index: 1000;
 }
 .site-header img {
+ .brand-logo {
+  width: 28px;
+  height: 28px;
   display: block;
-  height: 40px;
+}
+
 }
   </style>
-
-</head>
-<body>
-  <header class="site-header">
-  <a href="/" class="brand" aria-label="ExternAI Home">
-    <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="Logo-Vector-white.svg" />
-      <img src="Logo-Vector-black.svg" alt="ExternAI Logo" height="40" />
-    </picture>
-  </a>
-</header>
+<div class="brand">
+  <img src="Logo-Vector-white.svg" alt="ExternAI" class="brand-logo" />
+  <span class="nav-label">ExternAI</span>
+</div>
 
   <a href="#main" class="skip">Skip to main content</a>
   
